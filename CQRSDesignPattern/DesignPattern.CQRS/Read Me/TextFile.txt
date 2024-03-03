@@ -1,0 +1,5 @@
+﻿CQRS Amacı Okuma ve Yazmayı birbirinden ayırmak amaçtır.
+
+Command,Query,Result,Handler konu başlıkları vardır.
+
+

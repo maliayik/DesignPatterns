@@ -1,0 +1,6 @@
+﻿ChainOfResponsibility Amacı Örnek uygulamamızda oldugu gibi zincir halkasını yönetmemizi sağlar.
+
+Yani bir müşteri 400.000₺ lik para çekmek için bankaya gittiğinde ilk veznedara gider ve bu zincirin ilk halkası olur eğer veznedar bu tutarı karşılayamıyorsa zincirin diğer halkasına bizi yönlendirir. Ta ki zincirin son halkasına gelinceye kadar bu süreç devam eder.
+
+Zincirin son halkasında yönlendirecek başka bir halka kalmadığı için orada sonlanır ve müşteriye uygun bir uyarı dönülür.
+
