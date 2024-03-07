@@ -1,0 +1,5 @@
+﻿Template Design Pattern burada yaptığımız örnekteki gibi
+
+Netflix plana ait 3 alt plan örneği.
+
+Yani Templatemizde belirlediğimiz kuralları alt planlar override ederek kendilerine göre şekillendiriyolarlar.
