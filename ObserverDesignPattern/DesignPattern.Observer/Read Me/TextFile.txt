@@ -1,0 +1,13 @@
+﻿Observer yani gözlemleyici design pattern örneğimizde bir derginin türlerine göre abone olan kullanıcılara hangi tür dergiye abone oldularsa ona göre mail gönderme işlemi yapacağız.
+
+*Observerda mantık olarak bir veriyi farklı kullanıcılara ve her birinin ihtiyacına göre olan kısmı aktarmamıza yarar.
+
+ÖR: Man City
+	Galatasaray
+	Ajax
+
+	Yukarıdaki 3 takımında 3 ayrı seyirci türü mevcut fakat biz mancityde olan haberleri galatasaray ve ajax  seyircisinede gönderiyorsak hata yapıyoruz. Bu yüzden abone olunan takıma göre bilgi aktarımı yapmalıyız.
+
+
+
+	Burada yaptığımız örneğimizde kullanıcı sisteme kayıt olduktan sonra otomatik olarak Discounts Usersproces ve welcomemessages tabloları  kullanıcının kayıt oldugu bültene göre dolmaktadır. Burada değerleri statik verdik dinamik olarak verilip genişletilebilir.

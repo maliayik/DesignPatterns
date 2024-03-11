@@ -1,0 +1,26 @@
+﻿using DesignPattern.Observer.ObserverPattern;
+using System;
+
+namespace DesignPattern.Observer.DAL
+{
+    public class CreateDiscountCode : IObserver
+    {
+        private readonly IServiceProvider _serviceProvider;
+        Context context = new Context();
+        public CreateDiscountCode(IServiceProvider serviceProvider)
+        {
+            _serviceProvider = serviceProvider;
+        }
+
+        public void CreateNewUser(AppUser appUser)
+        {
+            context.Discounts.Add(new Discount
+            {
+                DiscountAmaount = 35,
+                DiscountCode = "DERGIMART",
+                DiscountCodeStatus = true,
+            });
+            context.SaveChanges();
+        }
+    }
+}
