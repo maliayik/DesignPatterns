@@ -1,0 +1,4 @@
+﻿Unitofwork design pattern kısaca tüm transactionu tek bir seferde databaseye kayıt etmeye yarayan tasarım desenidir.
+
+Ör: Banka transferi A göndericisinden B alıcısına giderken  A göndericisinden para çıktığında mevcut bakiyesi eksilir fakat bu arada baglantı bir şekilde kesilirse transfer gerçekleşmemiş olur fakat eğer
+A göndericisinden para çıktıktan sonra savechanges yapıldıysa işlem geriye döndürülemez.Bu yüzden UnitOfWork design pattern sayesinden tüm transaction tamamlanınca db ye kayıt işlemi gerçekleştirilir.
