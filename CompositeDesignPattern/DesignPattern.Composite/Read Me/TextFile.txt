@@ -1,0 +1,4 @@
+﻿Burada yaptıgımız örnekte üst kategori ve alt kategoriler birer composite ve recrusive bir şekilde ürüne ulasana kadar tekrar ediyor.
+
+Yaptıgımız en üst kategoride alt kategorilerinde kaç tane ürün oldugu ve onun alt kategorisinden onun altında kaçtane oldugu şeklinde ilerliyor.
+
