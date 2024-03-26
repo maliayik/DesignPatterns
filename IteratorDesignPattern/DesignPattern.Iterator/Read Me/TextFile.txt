@@ -1,0 +1,5 @@
+﻿-----------Iterator Design Pattern--------------
+
+İteratör(sağlayıcı) design pattern  bir koleksiyonda bu koleksiyon herhangi bir veri türünde olabilir gideceği sonraki adımı ve duracağı yeri bulmamıza yardımcı olur.
+
+Iteratör tasarım deseni, bir koleksiyonun içeriğini sıralı bir şekilde dolaşmamıza olanak tanırken, koleksiyonun yapısını ve iç detaylarını gizler. Bu sayede, koleksiyonun yapısında bir değişiklik olduğunda bile, iteratör aracılığıyla koleksiyona erişimde herhangi bir değişiklik yapmamız gerekmez.
