@@ -1,0 +1,6 @@
+﻿Mediator (Arabulucu) Design Pattern
+-Kaotik bağımlılıkları azaltmak için kullanılır,nesneler arasındaki doğrudan iletişimi kısıtlar, nesneleri bir aracı nesne aracılığıyla iş birliği yapmaya zorlar.
+
+Buradaki yaptıgımız örnek her bir productın categori ile ilişkisini mediator ile kurmasını yani mediatorun bir arabulucu görevini kurmasını sagladık.
+
+-Burada CQRS paterni gibi olusturuyoruz fakat meditor kütüphanesini kullanarak yapıyoruz.

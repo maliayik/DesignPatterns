@@ -41,7 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryDesignPattern.Pre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompositeDesignPattern", "CompositeDesignPattern", "{3B2CE370-3423-439F-AD32-09F5C3CFD864}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Composite", "CompositeDesignPattern\DesignPattern.Composite\DesignPattern.Composite.csproj", "{6538447D-34E2-441D-ABEA-875B41CF7520}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Composite", "CompositeDesignPattern\DesignPattern.Composite\DesignPattern.Composite.csproj", "{6538447D-34E2-441D-ABEA-875B41CF7520}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediatorDesignPattern", "MediatorDesignPattern", "{B52DF360-2E01-43FA-9B3F-470212F1A0E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Mediator", "MediatorDesignPattern\DesignPattern.Mediator\DesignPattern.Mediator.csproj", "{B0CEEFD4-62E8-4CEA-8AB4-5EFC3B6A6B4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +105,10 @@ Global
 		{6538447D-34E2-441D-ABEA-875B41CF7520}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6538447D-34E2-441D-ABEA-875B41CF7520}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6538447D-34E2-441D-ABEA-875B41CF7520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CEEFD4-62E8-4CEA-8AB4-5EFC3B6A6B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CEEFD4-62E8-4CEA-8AB4-5EFC3B6A6B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CEEFD4-62E8-4CEA-8AB4-5EFC3B6A6B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CEEFD4-62E8-4CEA-8AB4-5EFC3B6A6B4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +127,7 @@ Global
 		{73756F29-6007-4717-9A75-2703E8178845} = {6AA38BE4-BEDE-4479-A561-0E12DAFD527E}
 		{C3AA9E2C-8BC8-4E31-B0E4-8BD154C6F5CF} = {6AA38BE4-BEDE-4479-A561-0E12DAFD527E}
 		{6538447D-34E2-441D-ABEA-875B41CF7520} = {3B2CE370-3423-439F-AD32-09F5C3CFD864}
+		{B0CEEFD4-62E8-4CEA-8AB4-5EFC3B6A6B4B} = {B52DF360-2E01-43FA-9B3F-470212F1A0E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B6734EB-A0FA-4F04-A244-246011C07A91}
